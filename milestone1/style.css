@@ -30,3 +30,13 @@ nav ul li {
 body{
     margin: 0;
 }
+/*.myimage {
+    width: 300px;
+}
+/*.backgroundimage {
+    height: 300px;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
