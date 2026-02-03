@@ -2,7 +2,6 @@ body {
     background: #ffffff;
     color: #666666;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 header {
     background-color: #003058;
@@ -27,7 +26,7 @@ dt {
     font-weight: bold;
 }
 footer {
-    font-size:0.70rem;
+    font-size: 0.70rem;
     font-style: italic;
     text-align: center;
 }
