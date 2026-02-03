@@ -1,20 +1,27 @@
 a {
-                color:rgb(96, 148, 119);
-            }
-            header {
-                background-color:pink;
-                text-shadow: 5px 3px 5px rgb(54, 53, 53);
+    color:rgb(96, 148, 119);
+}
+header {
+    background-color:pink;
+    text-shadow: 5px 3px 5px rgb(54, 53, 53);
 
-            }
-            h1{
-                font-size: 50px;
-            }
-            p {
-                font-size: 1em;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 1em;
                 
-                font-family:Georgia, 'Times New Roman', Times, serif;
-            }
-            h4{
-                font-size: 1.3em;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-            }
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ h4{
+    font-size: 1.3em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    border-bottom:2px solid pink
+}
+nav ul li {
+    display: inline-block;
+    padding: 5px 10px 20px
+}

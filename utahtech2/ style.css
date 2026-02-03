@@ -9,34 +9,28 @@ header {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-header h1{
+header h1 {
     line-height: 140%;
     padding: 0.5rem;
 }
-
 nav { 
     font-weight: bold;
     background-color: #f3f3f3;
     color: #003058;
 }
-
 h2 {
     color: #424242;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-dt{
+dt {
     color: #BA1C21;
     font-weight: bold;
 }
-
 footer {
     font-size:0.70rem;
     font-style: italic;
     text-align: center;
 }
-
 #wrapper {
     width: 80%;
     margin: 0 auto;
