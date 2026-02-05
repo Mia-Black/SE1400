@@ -12,6 +12,11 @@ header {
 header h1 {
     line-height: 140%;
     padding: 0.5rem;
+    background-image: url('/Users/d00545084/Downloads/utahtechimages/utahtechlogo.svg') ;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 0;
 }
 
 nav {
