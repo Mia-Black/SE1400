@@ -23,18 +23,14 @@ header h1 {
     background-position: right;
     background-repeat: no-repeat;
     background-origin: content-box;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 nav {
     font-weight: bold;
-    background-color: #F3F3F3;
+    background-color: #424242;
     color: #003058;
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
-    padding-left: 2rem;
-    padding-bottom: 0.5rem;
-    nav a { text-decoration: none; }
+    nav { text-decoration: none; }
 
 }
 
@@ -62,7 +58,7 @@ footer {
 #wrapper {
     display: grid;
     grid-auto-rows: minmax(0, auto);
-    grid-template-columns: minmax(0px, 1fr) reapeat(6, minmax(1, 175px)) minmax(0px, 1fr);
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
 }
 
 h3 {
@@ -98,3 +94,59 @@ main {
     background-position: center;
 }
 
+header{
+    grid-row: 1 / 2;
+    grid-column: 2 / 8;
+}
+nav {
+    grid-row: 2 / 3;
+    grid-column: 2 / 8;
+    padding: 0;
+    margin:0;
+    position: sticky;
+    top:0;
+}
+#homehero, #studenthero, #facultyhero{
+    grid-row: 3 /4;
+    grid-column: 2 / 8;
+}
+main{
+    grid-row: 4 / 5;
+    grid-column:2 / -2;
+    background-color: #ffffff;
+}
+footer{
+    grid-row: 5 / 6;
+    grid-column: 2 / -2;
+}
+header a{ 
+    color: #ffffff;
+    text-decoration: none;
+
+}
+main img{
+    float: right;
+    padding: left 2rem;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+}
+nav ul li{
+    width: 100%;
+
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #BA1C21;
+    
+}
