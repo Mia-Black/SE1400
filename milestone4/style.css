@@ -6,22 +6,26 @@
 }
 
 header{
-    background-color: palevioletred;
+    background-color: grey;
     height: 100px;
     grid-row: 1 / 2;
     grid-column:2 / -2;
-    
     font-size: 50px;
     text-align: center;
+    background-image: url('https://preview.colorkit.co/color/ffb6c1.png?static=true');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-image-width: 30px;
+
+
 }
 nav{
-    background-color: pink;
+    background-color: grey;
     height: 50px;
     grid-row:2 / 3;
     grid-column:2 / -2;
     font-weight: bold;
-    
-    color: #003058;
     text-decoration: none;
     padding: 0;
     margin:0;
@@ -37,7 +41,7 @@ nav a{
     text-align: center;
 }
 nav a:hover {
-    background-color: powderblue;
+    background-color: pink;
     
 }
 nav ul{
@@ -53,31 +57,29 @@ nav ul li{
 }
 
 #hero {
-    background-color: plum;
+    background-image:('https://www.pexels.com/photo/person-holding-black-sony-ps-4-game-controller-7047333/');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 300px;
     grid-row:3 / 4;
-    grid-column:2 / -2;
+    grid-column:2 / 8;
 }
 main{
-    background-color: powderblue;
+    background-color: white;
     height: 500px;
     grid-row:4 / 5,  ;
     grid-column:2 / -2;
     display: grid;
     font-weight: bold;
-    
-    color: #003058;
-    
-    list-style-type: none;
-    grid-template-rows: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
-    padding: 20px;
-
+    color: black
 }
 
 
 footer {
-    background-color: purple;
+    background-color: grey;
     height: 100px;
     grid-row:5 / 6;
     grid-column:2 / -2;
 }
+
