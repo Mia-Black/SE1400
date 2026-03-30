@@ -25,8 +25,8 @@ header{
 
 nav{
     height: 50px;
-    grid-row:2 / 3;
-    grid-column:2 / -2;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
     font-weight: bold;
     text-decoration: none;
     padding: 0;
@@ -61,18 +61,22 @@ nav ul li{
 }
 
 #hero {
-    background-image:('https://www.pexels.com/photo/person-holding-black-sony-ps-4-game-controller-7047333/');
+    background-image:url(borgor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 300px;
-    grid-row:3 / 4;
+    height: 700px;
+    grid-row:5 / 6;
     grid-column:2 / 8;
+    background-color: alic;
+}
+#hero h1{
+
 }
 main{
     background-color: white;
     height: 400px;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
     grid-column: 2 / -2;
     display: grid;
     font-weight: bold;
@@ -98,7 +102,18 @@ main{
 footer {
     background-color: grey;
     height: 100px;
-    grid-row:6 / 7;
+    grid-row:7 / 8;
     grid-column: 2 / -2;
 }
-
+#boxthing{
+    height: 7px;
+    background-color: black;
+    grid-row: 2 / 3;
+    grid-column: 2 / -2;
+}
+#boxthing2{
+    height: 7px;
+    background-color: black;
+    grid-row: 4 / 5;
+    grid-column: 2 / -2;
+}
