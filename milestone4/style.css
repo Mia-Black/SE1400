@@ -6,7 +6,7 @@
 }
 
 header{
-    background-color: pink;
+    background-color: lightgray;
     height: 100px;
     grid-row: 1 / 2;
     grid-column:2 / -2;
@@ -34,6 +34,8 @@ nav{
     position: sticky;
     top: 0;
     background-color: grey;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
 
 }
 
@@ -45,7 +47,7 @@ nav a{
     text-align: center;
 }
 nav a:hover {
-    background-color: pink;
+    background-color: lightgray;
     
 }
 nav ul{
@@ -61,16 +63,23 @@ nav ul li{
 }
 
 #hero {
+    /* width  and border*/
     background-image:url(borgor.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border: 15px solid white;
+    margin: 20px;
     height: 700px;
     grid-row:5 / 6;
     grid-column:2 / 8;
     background-color: alic;
 }
 #hero h1{
+    font-size: 50px;
+    font-style: normal;
+    text-wrap: wrap;
+    width: 600px;
 
 }
 main{
@@ -86,34 +95,23 @@ main{
 #box1 {
     /* grid-area: rowstart/columnstart/rowend/columnend */
     grid-area: 1/1/2/2;
-    background-color: pink;
+    background-color: gray;
+    border: 5px solid black;
 }
 
 #box2 {
     grid-area: 1/2/2/3;
-    background-color: powderblue;
+    background-color: darkgray;
 }
 
 #box3 {
     grid-area: 1/3/2/4;
-    background-color: palegreen;
+    background-color: lightgrey;
 }
 
 footer {
     background-color: grey;
     height: 100px;
     grid-row:7 / 8;
-    grid-column: 2 / -2;
-}
-#boxthing{
-    height: 7px;
-    background-color: black;
-    grid-row: 2 / 3;
-    grid-column: 2 / -2;
-}
-#boxthing2{
-    height: 7px;
-    background-color: black;
-    grid-row: 4 / 5;
     grid-column: 2 / -2;
 }
