@@ -115,3 +115,12 @@ footer {
     grid-row:7 / 8;
     grid-column: 2 / -2;
 }
+@media only screen and (max-width: 992px){
+
+}
+@media only screen and (max-width: 768px){
+ nav ul{
+    flex-flow: column nowrap;
+   
+ }
+}
