@@ -22,6 +22,12 @@ header{
 
 
 }
+header img {
+    float:left;
+    height: 80px;
+}
+
+
 
 nav{
     height: 50px;
@@ -90,6 +96,10 @@ main{
     display: grid;
     font-weight: bold;
     color: black
+
+}
+main p{
+    margin: 30px;
 }
 
 #box1 {
