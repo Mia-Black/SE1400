@@ -93,12 +93,10 @@ nav ul li{
     margin: 20px;
 
 }
-#maintext{
-    
-}
+
 main{
     background-color: white;
-    height: 400px;
+    height: auto;
     grid-row: 6 / 7;
     grid-column: 2 / -2;
     display: grid;
@@ -106,8 +104,18 @@ main{
     color: black
 
 }
+
 main p{
     margin: 30px;
+}
+#menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#menu img{
+    width: 100%;
+    height: auto;
+    border: 10px solid white;
 }
 
 #box1 {
