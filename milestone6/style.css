@@ -2,6 +2,7 @@
     display: grid;
     grid-auto-rows: minmax(0,auto);
     grid-template-columns: minmax(0px,1fr) repeat(6,minmax(0,175px)) minmax(0px,1fr);
+    background-color: white;
 }
 
 header{
@@ -92,7 +93,9 @@ nav ul li{
     margin: 20px;
 
 }
-
+#maintext{
+    
+}
 main{
     background-color: white;
     height: 400px;
@@ -100,8 +103,7 @@ main{
     grid-column: 2 / -2;
     display: grid;
     font-weight: bold;
-    color: black;
-    margin-bottom: 70px;
+    color: black
 
 }
 main p{
@@ -114,33 +116,17 @@ main p{
     background-color: gray;
     border: 10px solid black;
     margin: 20px;
-    Text-align: center;
-    font-size: 30px;
 }
 #box1 img{
     height: 292px;
   border-bottom: 7px solid black;
 }
-#box1text {
-    font-size: 10px;
-    font-style: normal;
-    text-wrap: wrap;
-    position: absolute;
-    background-color: grey;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 0px 0px 10px;
-    color: rgb(255, 170, 0);
-}
-
 
 #box2 {
     grid-area: 1/2/2/3;
     background-color: darkgray;
     border: 10px solid black;
     margin: 20px;
-    Text-align: center;
-    font-size: 30px;
 }
 #box2 img{
     height: 292px;
@@ -150,21 +136,18 @@ main p{
 #box3 {
     grid-area: 1/3/2/4;
     background-color: lightgrey;
-    border: 10px solid black;
+    border: 7px solid black;
     margin: 20px;
-    Text-align: center;
-    font-size: 30px;
 }
 #box3 img{
     height: 292px;
-    border-bottom: 10px solid black;
+    border-bottom: 7px solid black;
 }
 
 footer {
-    
     background-color: grey;
     height: 100px;
-    grid-row:7 / 8;
+    grid-row:8 / 9;
     grid-column: 2 / -2;
 }
 @media only screen and (max-width: 992px){
