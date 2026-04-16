@@ -138,6 +138,15 @@ header a{
     text-decoration: none;
 
 }
+#shoppingcart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#shoppingcart img{
+    width: 100%;
+    height: auto;
+
+}
 main img{
     float: right;
     padding: left 2rem;
@@ -239,6 +248,9 @@ video{
         grid-column:1 / 5;
         position: static;
     }
+    #shoppingcart{
+        grid-template-columns: 1fr 1fr;
+    }
     nav ul{
         flex-flow: column nowrap;
     }
@@ -267,6 +279,9 @@ video{
         background-image: none;
         text-align: center;
         
+    }
+    #shoppingcart{
+        grid-template-columns: 1fr;
     }
     nav{
         grid-row:2 / 3;
